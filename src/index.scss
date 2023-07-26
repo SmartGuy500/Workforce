@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #636365;
+}
+
+.searchBar{
+    background-color: #fd510c;
+    color: #fbb601;
+    border-radius: 360px;
+    display: flex;
+    text-align: center;
+}
