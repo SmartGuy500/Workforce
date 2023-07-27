@@ -16,10 +16,14 @@ body{
     background-color: #636365;
 }
 
-.searchBar{
-    background-color: #fd510c;
-    color: #fbb601;
-    border-radius: 360px;
+.searchBar, .info{
+    color: gray;
+    background-color: #fbb601;
     display: flex;
     text-align: center;
+    flex-wrap: wrap;
+}
+
+.searchBar{
+    border-radius: 360px;
 }

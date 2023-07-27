@@ -16,9 +16,11 @@ const Joblist = ()=>{
                     }
                 }).map((job)=>{
                     return(
-                        <div key={job.id}>
+                        <div className="info" key={job.id}>
                             <h1>{job.title}</h1>
                             <h2>{job.location}</h2>
+                            <h2>{job.description}</h2>
+                            <h2>{job.requirements}</h2>
                         </div>
                     )
                 })
